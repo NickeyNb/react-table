@@ -34,10 +34,6 @@ const Table = ({ data, columns }: TableProp) => {
     state: {
       sorting: sorting,
       globalFilter: filtering,
-      pagination: {
-        pageIndex: 0,
-        pageSize: 10,
-      },
     },
     onSortingChange: setSorting,
     onGlobalFilterChange: setFiltering,
